@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    color: #000000;
+    padding-top: 50px;
+}
+
+.card-color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-color-1{
+    width:60px;
+    height: 60px;
+    background-color: #36a936;
+}
+
+.card-color-2{
+    width: 60px;
+    height: 60px;
+    background-color: #205890;
+}
+
+.card-color-3{
+    width: 60px;
+    height: 60px;
+    background-color: #ffd700;
+}   
+
+.card-color-4{
+    width: 60px;
+    height: 60px;
+    background-color: #ff0000;
+}   
+
+.card-color-5{
+    width: 60px;
+    height: 60px;
+    background-color: #ffa500;
+}  
+
+p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.about h1{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.about p b{
+    color: #000;
+}
+
+.passions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+} 
+
+.passions h1{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.passions p b{
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
